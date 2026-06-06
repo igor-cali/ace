@@ -58,6 +58,7 @@
 //#include <libraries/dos.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <unistd.h>
 
 #ifdef __GNUC__
 /* Force compiling with builtin math for gcc */

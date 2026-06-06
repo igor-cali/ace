@@ -128,35 +128,35 @@ extern	BOOL	list_source;
 //                 "stringtype","notype" };
 
 /* --character handler-- */
-char   *srcfile,*destfile;	 /* source and destination file names */
-FILE   *src;                     /* source file handle */
-FILE   *dest;                    /* object file handle */
-int    column,linelen;           /* current column & length of char buffer */ 
+//char   *srcfile,*destfile;	 /* source and destination file names */
+//FILE   *src;                     /* source file handle */
+//FILE   *dest;                    /* object file handle */
+//int    column,linelen;           /* current column & length of char buffer */ 
 //int    lineno=0;                 /* current line of source */
 //int    errors=0;                 /* # of errors generated */
-char   line[MAXLINELEN];         /* Nth line buffer */
-char   lastline[MAXLINELEN];  	 /* (N-1)th line buffer */
+//char   line[MAXLINELEN];         /* Nth line buffer */
+//char   lastline[MAXLINELEN];  	 /* (N-1)th line buffer */
 //char   ch=' ';                   /* last character returned by nextch */
-char   ut_ch; 			 /* same as ch, but not forced to upper case */
+//char   ut_ch; 			 /* same as ch, but not forced to upper case */
 //BOOL   end_of_source=FALSE;      /* indicates whether EOF reached */
 //BOOL   std_in=FALSE;		 /* is source file stdin? (used for testing) */
    
 /* --scanner-- */
-FILE   *err_log;		 /* error log file */
+//FILE   *err_log;		 /* error log file */
 //int    sym=undefined;		 /* last symbol returned by scanner */
-int    lastsym;                  /* symbol from LAST scanner call */
-int    obj;            		 /* kind of object (label,variable...) */
-int    typ;                      /* type (short,long,string...) */
-char   id[MAXIDSIZE];            /* identifier */
-char   ut_id[MAXIDSIZE];	 /* untouched identifier for DATA statement */ 
-char   stringval[MAXSTRLEN];     /* string literal */
-SHORT  shortval;                 /* short literal */
-LONG   longval;                  /* long literal */
-float  singleval;                /* single precision literal */
-double doubleval;                /* double precision literal */ 
-SHORT  dimsize[255];		 /* array indices holder */
+//int    lastsym;                  /* symbol from LAST scanner call */
+//int    obj;            		 /* kind of object (label,variable...) */
+//int    typ;                      /* type (short,long,string...) */
+//char   id[MAXIDSIZE];            /* identifier */
+//char   ut_id[MAXIDSIZE];	 /* untouched identifier for DATA statement */ 
+//char   stringval[MAXSTRLEN];     /* string literal */
+//SHORT  shortval;                 /* short literal */
+//LONG   longval;                  /* long literal */
+//float  singleval;                /* single precision literal */
+//double doubleval;                /* double precision literal */ 
+//SHORT  dimsize[255];		 /* array indices holder */
 
-int    idtype[31]; 		 /* 
+/*int    idtype[31]; */		 /* 
 				 ** Type of ident starting with a given letter 
 				 ** or an underscore which is ASCII 95, hence
 				 ** 31 positions: 0..25 = A..Z and 30 = "_"

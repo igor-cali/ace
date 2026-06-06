@@ -50,20 +50,20 @@ extern	int  	addr[2];
 extern	int  	lev;
 
 /* --symbol table-- */
-STRUCM 	*new_structmem,*tail_structmem,*curr_structmem;
-SYM  	*tab_head[2],*tab_tail,*new_item,*curr_item,*structdef_item;
+//STRUCM 	*new_structmem,*tail_structmem,*curr_structmem;
+//SYM  	*tab_head[2],*tab_tail,*new_item,*curr_item,*structdef_item;
 
 /* --code hunk list-- */
-CODE *code,*curr_code,*new_code;
+//CODE *code,*curr_code,*new_code;
 
 /* --data hunk list-- */
-DATA *data,*curr_data,*new_data;
+//DATA *data,*curr_data,*new_data;
 
 /* --bss hunk list-- */
-BSS *bss,*curr_bss,*new_bss;
+//BSS *bss,*curr_bss,*new_bss;
 
 /* --XREF list-- */
-XREF *xref,*curr_xref,*new_xref;
+//XREF *xref,*curr_xref,*new_xref;
 
 /* --BASIC DATA list-- */
-BASDATA *basdata,*curr_basdata,*new_basdata;
+//BASDATA *basdata,*curr_basdata,*new_basdata;
